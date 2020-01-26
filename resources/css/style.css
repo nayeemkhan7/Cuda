@@ -1,0 +1,170 @@
+/* ============================== */
+/* ======== Global CSS ======== */
+/* ============================== */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10px;
+  /* font-size: 62%; */
+
+  /* =For Smooth SCroll Navigation= */
+  scroll-behavior: smooth;
+}
+body{
+  text-rendering: optimizeLegibility;
+  //line-height: 1.3rem;
+}
+ul li{
+  list-style-type: none;
+}
+
+
+/* ============================== */
+/* ===== Reusable Components ===== */
+
+.row{
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+section{
+  padding: 8rem 0;
+}
+
+h1{
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+/* ====== Headings ====== */
+h2{
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  margin: 0 0 2rem;
+}
+/* For Line after H2 Tag */
+h2::after{
+  content: "";
+  display: block;
+  height: 0.4rem;
+  width: 8rem;
+  margin: 2rem auto;
+  background: #fff;
+}
+/* === Little Description === */
+/* ======== After H2 ======== */
+.little-description{
+  font-size: 1.8rem;
+  line-height: 1.5;
+  width: 60%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+h3{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  /*margin-bottom: 1rem;*/
+}
+
+h4{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+.box{}
+
+.box p{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+/* ===== Button ===== */
+.btn:link,
+.btn:visited,
+.btn{
+  color: #fff;
+  background: #ccc;
+  border-bottom: .3rem solid #222;
+  padding: 1.5rem 5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+/* ============================== */
+/* ======= Header Section ======= */
+
+header{
+  background: linear-gradient(rgba(135,80,156,0.8),rgba(135,80,156,0.9)), url(img/hero-bg2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  //position: relative;
+}
+.logo{
+  height: 3.5rem;
+  width: auto;
+  margin-top: 3.5rem;
+  float: left;
+}
+.main-nav{
+  float: right;
+  margin-top: 4rem;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 1rem;;
+}
+.main-nav li:first-child{
+  margin-left: 0;
+}
+.main-nav li.active a{
+  background: rgba(100, 58, 121, 1);
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgba(100, 58, 121, 0);
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.3rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+  background: rgba(100, 58, 121, 1);
+}
+.hero-text-box{
+  width: 100rem;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+....
