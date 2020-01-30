@@ -191,7 +191,56 @@ header{
   border-bottom: 0.2rem solid #c86a40;
 }
 
-
+/* Mobile Menu Design CSS */
+.mobile-menu span{
+  color: #fff;
+  font-size: 4rem;
+  float: right;
+  margin: 2rem 1rem 0 0;
+  display: none;
+}
+.mobile-menu span:hover{
+  cursor: pointer;
+}
+.overlay{
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.4s;
+}
+.overlay-content{
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.overlay a{
+  text-decoration: none;
+  display: block;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #999;
+  padding: 1rem 0;
+}
+.overlay a:hover{
+  color: #fff;
+}
+.closebtn {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  font-size: 8rem;
+}
+.sticky .mobile-menu span{
+  margin-top: 0.5rem;
+}
 
 
 
