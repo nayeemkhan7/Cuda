@@ -242,6 +242,58 @@ header{
   margin-top: 0.5rem;
 }
 
+/* ============================== */
+/* ======== Team Section ======== */
+
+.team-section{
+  background: linear-gradient(rgba(231, 241, 248,0.9),rgba(231, 241, 248,0.9)), url(img/team-bg.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #27283d;
+  text-align: center;
+}
+.team-section h2::after{
+  background: #c8d9e5;
+}
+.team-member{
+  margin: 3rem 0;
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+}
+.role{
+  color: #30bae7;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  display: block;
+  margin-top: 1.5rem;
+}
+.social-link{
+  margin-top: 4.5rem;
+}
+.social-link ul li{
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.social-link ul li a{
+  color: #fff ;
+}
+.social-link ul li a:link i::before{
+  background: #bdd1f0;
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1.8rem;
+  transition: 0.4s ease-in-out;
+}
+/* =HOVER effect on SOCIAL Icon= */
+.social-link ul li a:hover i::before{
+  background: #393939;
+  transform: rotate(360deg);
+}
 
 
 
