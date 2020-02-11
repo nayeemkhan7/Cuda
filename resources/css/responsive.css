@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1024px) {
+  .row{
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .mobile-menu span{
+    display: block;
+  }
+  .main-nav{
+    display: none;
+  }
+  html{
+    font-size: 9px;
+  }
+  .hero-text-box{
+    width: 90%;
+  }
+  .client-photo{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .client-review{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section form{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 980px){
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3){
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .little-description{
+    width: 90%;
+  }
+  .contact-section form{
+    width: 100%;
+    margin-left: 0;
+  }
+  h1{
+    font-size: 3.2rem;
+  }
+  h2{
+    font-size: 3.2rem;
+  }
+  footer ul li{
+    padding: 0 1rem;
+  }
+  footer ul li a{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  html{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .span_1_of_4 {
+    width: 100%;
+  }
+  h1{
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 2.8rem;
+  }
+  footer ul li{
+    padding: 0 1rem;
+  }
+  footer ul li a{
+    font-size: 1.8rem;
+  }
+}
